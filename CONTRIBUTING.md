@@ -25,7 +25,7 @@ To maintain the high quality of this list, please ensure your Pull Request (PR) 
 
 ### 2. Formatting (Strict)
 Follow the existing format exactly to keep the list clean:
-`- [top-github-repos-list](https://github.com/md8-habibullah/top-github-repos-list.git) — Short, clear description (ends with a period).`
+`- [top-github-repos-list](https://github.com/md8-habibullah/top-github-repos-list.git) - Short, clear description (ends with a period).`
 
 ### 3. Commit Messages
 Use clear, descriptive commit messages, for example:
@@ -48,4 +48,4 @@ Use clear, descriptive commit messages, for example:
 By participating in this project, you agree to abide by our standards of professional and respectful communication. We are committed to making this a welcoming environment for everyone.
 
 Thank you for helping make this project awesome!  
-— *md8-habibullah*
+- *md8-habibullah*

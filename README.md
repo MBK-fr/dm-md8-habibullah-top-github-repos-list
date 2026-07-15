@@ -1,4 +1,4 @@
-# 🌟 200+ Ultimate Open-Source Repositories: The Developer's Curated Guide [2026] --- 🚀 (Curated by Category)
+# 🌟 280+ Ultimate Open-Source Repositories: The Developer's Curated Guide [2026] --- 🚀 (Curated by Category)
 
 [![GitHub stars](https://img.shields.io/github/stars/md8-habibullah/top-github-repos-list?style=social)](https://github.com/md8-habibullah/top-github-repos-list/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/md8-habibullah/top-github-repos-list?style=social)](https://github.com/md8-habibullah/top-github-repos-list/network/members)
@@ -6,11 +6,11 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/md8-habibullah/top-github-repos-list)](https://github.com/md8-habibullah/top-github-repos-list/commits/main)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
 
-> **The ultimate curated collection of 200+ high-impact open-source repositories for Web Dev, DevOps, AI, and Security. Updated for 2026.**
+> **The ultimate curated collection of 280+ high-impact open-source repositories for AI/LLM, Web Dev, DevOps, Cloud Native, and Security. Updated for 2026.**
 
 > **A curated, categorized, and regularly updated list of must-see open source repositories for developers, students, and tech enthusiasts.**
 
-> **🚀 Established in 2024 | Continuously Maintained**
+> **🚀 Established in 2024 | Continuously Maintained | Heavy AI/LLM & DevOps Focus**
 
 ---
 
@@ -18,11 +18,19 @@
 
 * [🚀 Roadmaps & Learning Paths](#-roadmaps--learning-paths)
 * [🤖 AI & LLM Engineering](#-ai--llm-engineering-the-new-essential)
+    * [🎯 LLM Runtimes & Local Inference](#-llm-runtimes--local-inference)
+    * [🛠️ LLM Application Frameworks](#-llm-application-frameworks-build-products)
+    * [🧠 Model Fine-Tuning & Training](#-model-fine-tuning--training)
+    * [🤖 AI Agents & Automation](#-ai-agents--automation)
+    * [💬 AI Chat, RAG & Vector Databases](#-ai-chat-rag--vector-databases)
+    * [🎨 Open-Source LLMs & Models](#-open-source-llms--models)
+* [🔧 AI Development Frameworks & Tools](#-ai-development-frameworks--tools)
 * [🌐 Web Development](#-web-development)
 * [📱 Mobile Development](#-mobile-development)
 * [👨‍💻 Programming Languages & Algorithms](#-programming-languages--algorithms)
 * [🧪 Data Science & Machine Learning](#-data-science--machine-learning)
 * [⚙️ Advanced DevOps & Cloud Native](#-advanced-devops--cloud-native-infrastructure-️)
+* [🚀 Modern Deployment & Container Orchestration](#-modern-deployment--container-orchestration)
 * [🛡️ Cybersecurity & Pentesting](#-cybersecurity--pentesting-your-specialty)
     * [🎮 Command & Control (C2)](#-command--control-c2--remote-access)
     * [🤖 Botnets & AI Red Teaming](#-botnets-agents--ai-red-teaming)
@@ -73,13 +81,72 @@
 
 This is currently the most starred category on GitHub.
 
+### 🎯 LLM Runtimes & Local Inference
+
 * [Ollama](https://github.com/ollama/ollama) — Run large language models (Llama 3.2, Mistral) locally.
-* [LangChain](https://github.com/langchain-ai/langchain) — The standard framework for building LLM-powered applications.
 * [Hugging Face Transformers](https://github.com/huggingface/transformers) — State-of-the-art machine learning for Pytorch, TensorFlow, and JAX.
+* [LM Studio](https://github.com/lmstudio-ai/lms) — Desktop app to discover, download, and run local LLMs with a beautiful UI.
+* [GPT4All](https://github.com/nomic-ai/gpt4all) — Run open-source LLMs offline on your machine (no internet, privacy-first).
+* [vLLM](https://github.com/vllm-project/vllm) — High-throughput LLM inference and serving engine.
+* [text-generation-webui](https://github.com/oobabooga/text-generation-webui) — A Gradio web UI for running LLMs with advanced sampling and tuning options.
+* [LocalAI](https://github.com/mudler/LocalAI) — OpenAI API-compatible local inference engine supporting multiple models.
+
+### 🛠️ LLM Application Frameworks (Build Products)
+
+* [LangChain](https://github.com/langchain-ai/langchain) — The standard framework for building LLM-powered applications.
+* [LlamaIndex](https://github.com/run-llama/llama_index) — Data indexing and retrieval framework for LLMs; query your documents with AI.
+* [LangGraph](https://github.com/langchain-ai/langgraph) — Build resilient, multi-step AI applications with state management and human-in-the-loop.
+* [CrewAI](https://github.com/crewAIInc/crewAI) — AI agent orchestration framework for building collaborative AI teams.
+* [AutoGen](https://github.com/microsoft/autogen) — Multi-agent conversation framework for building complex AI workflows.
+* [Dify](https://github.com/langgenius/dify) — Open-source platform for building and deploying LLM apps visually.
+* [Vercel AI SDK](https://github.com/vercel/ai) — Build AI applications with JavaScript/TypeScript, supporting multiple AI providers.
+* [Semantic Kernel](https://github.com/microsoft/semantic-kernel) — Microsoft's SDK for combining LLMs with conventional code and plugins.
+
+### 🧠 Model Fine-Tuning & Training
+
+* [Hugging Face PEFT](https://github.com/huggingface/peft) — Parameter-efficient fine-tuning (LoRA, QLoRA, etc.) for LLMs.
+* [Unsloth](https://github.com/unslothai/unsloth) — 2-5x faster LLM fine-tuning with dramatically lower memory use.
+* [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) — Simplified, config-driven fine-tuning framework for open-source LLMs.
+* [TRL (Transformer Reinforcement Learning)](https://github.com/huggingface/trl) — Tools for RLHF-style post-training of language models.
+* [LitGPT](https://github.com/Lightning-AI/litgpt) — Hackable implementation of open-source LLMs with training and inference.
+
+### 🤖 AI Agents & Automation
+
 * [Claude Code](https://github.com/anthropics/claude-code) — Agentic coding tool that lives in your terminal and understands your entire codebase.
+* [OpenClaw](https://github.com/openclaw/openclaw) — Self-hosted personal AI agent that runs across WhatsApp, Telegram, Slack, Discord and more.
+* [Hermes Agent](https://github.com/NousResearch/hermes-agent) — Self-improving AI agent by Nous Research with persistent memory and self-distilled skills.
 * [Browser-use](https://github.com/browser-use/browser-use) — Open-source AI for web automation (letting AI "use" the browser).
-* [Aider](https://www.google.com/search?q=https://github.com/aider-chat/aider) — AI pair programming in your terminal.
+* [Aider](https://github.com/Aider-AI/aider) — AI pair programming in your terminal.
 * [Dorothy](https://github.com/Charlie85270/Dorothy) — Open-source desktop app to orchestrate multiple AI CLI agents simultaneously with automations and Kanban management.
+* [GPT Researcher](https://github.com/assafelovic/gpt-researcher) — Autonomous research agent that conducts online research and compiles reports.
+* [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) — Natural language interface for letting an LLM run code on your computer.
+
+### 💬 AI Chat, RAG & Vector Databases
+
+* [Open WebUI](https://github.com/open-webui/open-webui) — ChatGPT-like self-hosted web UI for Ollama and OpenAI-compatible APIs.
+* [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) — Private, self-hosted ChatGPT alternative with full document support (RAG).
+* [Quivr](https://github.com/QuivrHQ/quivr) — Personal productivity assistant that lets you chat with your files and knowledge base.
+* [Flowise](https://github.com/FlowiseAI/Flowise) — Drag-and-drop visual builder for LLM applications and agent workflows.
+* [Chroma](https://github.com/chroma-core/chroma) — AI-native embedding/vector database for building RAG and semantic search.
+* [Weaviate](https://github.com/weaviate/weaviate) — Open-source vector database for ML-powered search and similarity.
+* [Milvus](https://github.com/milvus-io/milvus) — High-performance vector database built for large-scale AI applications.
+
+### 🎨 Open-Source LLMs & Models
+
+* [Llama](https://github.com/meta-llama/llama-models) — Meta's open-weight LLM family (Llama 3.x and beyond).
+* [Mistral Common](https://github.com/mistralai/mistral-common) — Official tokenization/formatting library for Mistral AI's open models.
+* [Stable Diffusion](https://github.com/CompVis/stable-diffusion) — Open-source text-to-image generation model.
+* [Whisper](https://github.com/openai/whisper) — Open-source speech recognition (speech-to-text) model by OpenAI.
+
+---
+
+## 🔧 AI Development Frameworks & Tools
+
+* [OpenAI Cookbook](https://github.com/openai/openai-cookbook) — Examples and guides for using the OpenAI API.
+* [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) — Examples and best practices for building with Claude.
+* [Guidance](https://github.com/guidance-ai/guidance) — Control language model generation with an intuitive, constrained syntax.
+* [Instructor](https://github.com/567-labs/instructor) — Structured, typed output from LLMs with automatic validation.
+* [Pydantic AI](https://github.com/pydantic/pydantic-ai) — Type-safe agent framework built on Pydantic.
 
 ---
 
@@ -175,6 +242,22 @@ This is currently the most starred category on GitHub.
 
 ---
 
+## 🚀 Modern Deployment & Container Orchestration
+
+Next-gen self-hosted PaaS alternatives to Heroku, Vercel, and Netlify, plus modern container tooling.
+
+* [Dokploy](https://github.com/Dokploy/dokploy) — Simple, modern, self-hosted PaaS. Deploy Node, Python, Docker apps with zero configuration.
+* [CapRover](https://github.com/caprover/caprover) — Self-hosted PaaS with a one-click app installer and easy Docker deployment.
+* [Hoppscotch](https://github.com/hoppscotch/hoppscotch) — Open-source API development ecosystem, an alternative to Postman/Insomnia.
+* [Nomad](https://github.com/hashicorp/nomad) — Flexible, simple workload orchestrator (an alternative to Kubernetes).
+* [Docker Compose](https://github.com/docker/compose) — Define and run multi-container Docker applications.
+* [Podman](https://github.com/containers/podman) — Daemonless OCI container engine, a drop-in Docker alternative.
+* [Buildah](https://github.com/containers/buildah) — Build OCI container images without needing a running daemon.
+* [Dive](https://github.com/wagoodman/dive) — Explore Docker image layers and discover ways to shrink image size.
+* [Flux CD](https://github.com/fluxcd/flux2) — GitOps toolkit for declarative, continuous delivery on Kubernetes.
+
+---
+
 ## 🛡️ Cybersecurity & Pentesting (Your Specialty)
 
 As a Security Engineer, these tools are for authorized penetration testing, research, and infrastructure hardening only.
@@ -189,7 +272,7 @@ As a Security Engineer, these tools are for authorized penetration testing, rese
 
 * [Sliver](https://github.com/BishopFox/sliver) — A powerful, cross-platform, open-source C2 framework (the best open-source alternative to Cobalt Strike).
 * [Evil-WinRM](https://github.com/Hackplayers/evil-winrm) — The ultimate shell for hacking Windows; features lateral movement, file transfer, and memory execution.
-* [NetExec](https://www.google.com/search?q=https://github.com/PennyWise8Cracks/NetExec) — The successor to CrackMapExec; a multi-tool for automated network assessment and credential harvesting.
+* [NetExec](https://github.com/Pennyw0rth/NetExec) — The successor to CrackMapExec; a multi-tool for automated network assessment and credential harvesting.
 * [Havoc](https://github.com/HavocFramework/Havoc) — A modern, malleable post-exploitation command and control framework.
 
 ### 🤖 Botnets, Agents & AI Red Teaming

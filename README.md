@@ -298,6 +298,7 @@ As a Security Engineer, these tools are for authorized penetration testing, rese
 
 ### 💣 Exploitation & Payload Heavies
 
+* [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, orchestrating 80+ offensive tools as an MCP host with proof of exploitation and a local privacy gateway (the LLM never sees real IPs or credentials).
 * [Metasploit Framework](https://github.com/rapid7/metasploit-framework) - The world's most used penetration testing software.
 * [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - A massive library of payloads for every web vulnerability imaginable.
 * [Impacket](https://github.com/fortra/impacket) - A collection of Python classes for working with network protocols (SMB, MSRPC) - essential for Windows network hacking.
